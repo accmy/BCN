@@ -1,5 +1,5 @@
     
-        fetch('./scroll1.json')
+        fetch('https://api.npoint.io/ab3da3f67c432673db9d')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('marquee').innerHTML = data;
